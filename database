@@ -1,0 +1,53 @@
+CREATE SCHEMA salaykafinal;
+
+CREATE TABLE 'salaykafinal', 'quiz1' (
+‘QuestionID’ INT NOT NULL,
+‘Question’ VARCHAR(200) NULL, 
+‘Choice1’ VARCHAR(45) NULL,
+‘Choice2’ VARCHAR(45) NULL,
+‘Choice3’ VARCHAR(45) NULL,
+‘Choice4’ VARCHAR(45) NULL,
+‘Answer’ VARCHAR(45) NOT NULL,
+PRIMARY KEY (‘QuestionID’));
+
+CREATE TABLE 'salaykafinal', 'quiz2' (
+‘QuestionID’ INT NOT NULL,
+‘Question’ VARCHAR(200) NULL, 
+‘Choice1’ VARCHAR(45) NULL,
+‘Choice2’ VARCHAR(45) NULL,
+‘Choice3’ VARCHAR(45) NULL,
+‘Choice4’ VARCHAR(45) NULL,
+‘Answer’ VARCHAR(45) NOT NULL,
+PRIMARY KEY (‘QuestionID’));
+
+insert into quiz1 values (1, "How many blue stripes are ther on the American flag?", 6, 7, 13, 0, 0),
+(2, "Which planet is the hottest?", "Venus", "Mercury", "Mars", "Jupiter", "Venus"),
+(3, "What is the rarest blood type?", "AB", "B+", "O", "A-", "O"),
+(4, "How many bones are in the human body?", 201, 204, 203, 206, 206),
+(5, "What color is Bubbles from the Powerpuff Girls?", "Red", "Blue", "Green", "Purple", "Blue"),
+(6, "Which country gifted the Statue of Liberty to the US?", "Germany", "Britain", "France", "Russia", "France"),
+(7, "Who painted the Mona Lisa?", "Van Gogh", "Monet", "Picasso", "Da Vinci", "Da Vinci"),
+(8, "What is Sodium Chloride?", "Salt", "Water", "Chlorine", "Sugar", "Salt"),
+(9, "Which social media platform is the movie The Social Network about?", "Instagram", "Twitter", "Facebook", "Snapchat", "Facebook"),
+(10, "How many burrows are there in NYC?", 2, 3, 4, 5, 5),
+(11, "How many degrees are in a circle?", 180, 175, 360, 720, 360),
+(12, "Which city is known as the city of love?", "Rome", "Paris", "London", "Tokyo", "Paris"),
+(13, "What does the U in UFO stand for?", "Unidentified", "Universal", "United", "Under", "Unidentified"),
+(14, "Han Solo is a character from which film series?", "Harry Potter", "The Matrix", "Indiana Jones", "Star Wars", "Star Wars"),
+(15, "How many sides does a Hexagon have?", 4, 5, 6, 7, 6);
+
+insert into quiz2 values (16, "What does FBI stand for?", "Female Body Inspector", "Federal Bureau of Investigation", "Federal Business of Investigation", "Federal Bureau of Inspection", "Federal Bureau of Investigation"),
+(17, "According to Phineas and Ferb, there are  days of summer vacation", 100, 104, 200, 365, 104),
+(18, "In greek mythology, who is the queen of the Underworld?", "Persephone", "Hera", "Medusa", "Pandora", "Persephone"),
+(19, "How many points is a touchdown worth?", 7, 6, 5, 10, 6),
+(20, "Steve Jobs is known for wearing a black ___", "Sweater", "Shirt", "Jacket", "Turtleneck", "Turtleneck"),
+(21, "What is the name of the second American astronaut to step foot on the moon?", "Neil Armstrong", "Nicolas Cage", "Tom Cruise", "Buzz Aldrin", "Buzz Aldrin"),
+(22, "What artifact is found by Indiana Jones in Indiana Jones and the Last Crusade?", "Crystal Skull", "Holy Grail", "Ark of the Covenant", "Staff of Moses", "Holy Grail"),
+(23, "What is the fastest snake in the world?", "Cobra", "Python", "Anaconda", "Black Mamba", "Black Mamba"),
+(24, "Which vegetable gives Popeye his strength?", "Cabbage", "Kale", "Spinach", "Squash", "Spinach"),
+(25, "How many hearts does an octupus have?", 3, 4, 5, 6, 3),
+(26, "In what year was the first Iphone model released?", 2001, 2006, 2007, 2004, 2007),
+(27, "What is the symbol for potassium?", "He", "Po", "K", "Na", "K"),
+(28, "What country produces the most coffee in the world?", "Brazil", "USA", "Britain", "Mexico", "Brazil"),
+(29, "What is Superman and Batman's mother's name?", "May", "Mary", "Martha", "Maria", "Martha"),
+(30, "How many films did Sean COnnery play James Bond in?", 3, 5, 8, 7, 7);
